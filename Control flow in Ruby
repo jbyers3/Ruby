@@ -1,0 +1,10 @@
+Print "Enter an integer: "
+user_num = Integer(gets.chomp)
+
+if user_num < 0
+  puts "Integer is negative."
+elsif user_num > 0
+  puts "Integer is positive"
+else
+  puts "Zero!"
+end
